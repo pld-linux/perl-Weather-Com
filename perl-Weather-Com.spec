@@ -46,5 +46,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Weather/*.pm
+%{perl_vendorlib}/Weather/Com/*.pm
+%dir %{perl_vendorlib}/Weather/Com/L10N
+%{perl_vendorlib}/Weather/Com/L10N/*.pm
 %{_mandir}/man3/*
