@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Weather/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dcbb97fd0c6a718f513bb2c612849bab
 URL:		http://search.cpan.org/dist/Weather-Com/
+BuildRequires:	perl-XML-Simple
 BuildRequires:	perl-Time-Format >= 1.0
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
